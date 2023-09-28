@@ -119,7 +119,7 @@
 
 <li>
 <a href="mailto:amrsaad11595@gmail.com" target="_blank">
-<img src="https://img.shields.io/badge/gmail:  amrsaad11595%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" t=mail style="margin-bottom: 5px;" />
+<img src="https://img.shields.io/badge/gmail-blue:  amrsaad11595%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" t=mail style="margin-bottom: 5px;" />
 </a>
 </li>
 	
