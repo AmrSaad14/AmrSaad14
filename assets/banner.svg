@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Amr Saad Amer — Flutter Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A1224"/>
+      <stop offset="0.55" stop-color="#0E1D3A"/>
+      <stop offset="1" stop-color="#0B2A4A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#54C5F8"/>
+      <stop offset="1" stop-color="#027DFD"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.85" cy="0.3" r="0.55">
+      <stop offset="0" stop-color="#54C5F8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#54C5F8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+    <style>
+      .name { font: 700 52px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #F4F8FF; letter-spacing: -0.5px; }
+      .role { font: 600 22px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #54C5F8; letter-spacing: 3px; }
+      .tag  { font: 400 19px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #B8C6DD; }
+      .chip { font: 600 14px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #DCE8FA; }
+      .code { font: 500 15px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; fill: #7F93B5; }
+      .kw   { fill: #C792EA; } .ty { fill: #54C5F8; } .st { fill: #C3E88D; }
+      .fade { animation: fade 1.2s ease-out both; }
+      .d1 { animation-delay: .15s } .d2 { animation-delay: .3s } .d3 { animation-delay: .45s }
+      @keyframes fade { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+      .caret { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .float { animation: float 6s ease-in-out infinite; transform-origin: center; }
+      @keyframes float { 50% { transform: translateY(-6px) } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="300" fill="url(#accent)"/>
+
+  <!-- Left: identity -->
+  <g transform="translate(64,0)">
+    <text class="role fade" x="0" y="82">FLUTTER DEVELOPER</text>
+    <text class="name fade d1" x="0" y="142">Amr Saad Amer</text>
+    <text class="tag fade d2" x="0" y="182">Shipping scalable, production Flutter apps to real users —</text>
+    <text class="tag fade d2" x="0" y="208">delivery, marketplaces, family safety &amp; fintech.</text>
+
+    <g class="fade d3"><g transform="translate(0,234)">
+      <rect width="148" height="32" rx="16" fill="#54C5F8" fill-opacity="0.12" stroke="#54C5F8" stroke-opacity="0.45"/>
+      <text class="chip" x="74" y="21" text-anchor="middle">10+ Play Store apps</text>
+      <rect x="160" width="150" height="32" rx="16" fill="#54C5F8" fill-opacity="0.12" stroke="#54C5F8" stroke-opacity="0.45"/>
+      <text class="chip" x="235" y="21" text-anchor="middle">pub.dev publisher</text>
+      <rect x="322" width="136" height="32" rx="16" fill="#54C5F8" fill-opacity="0.12" stroke="#54C5F8" stroke-opacity="0.45"/>
+      <text class="chip" x="390" y="21" text-anchor="middle">Clean Architecture</text>
+    </g></g>
+  </g>
+
+  <!-- Right: code card -->
+  <g transform="translate(760,48)"><g class="float">
+    <rect width="380" height="204" rx="14" fill="#060C18" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="22" cy="20" r="5" fill="#FF5F57"/>
+    <circle cx="40" cy="20" r="5" fill="#FEBC2E"/>
+    <circle cx="58" cy="20" r="5" fill="#28C840"/>
+    <text class="code" x="250" y="25">amr.dart</text>
+    <text class="code" x="22" y="64"><tspan class="kw">final</tspan> amr = <tspan class="ty">Developer</tspan>(</text>
+    <text class="code" x="42" y="90">stack: [<tspan class="st">'Flutter'</tspan>, <tspan class="st">'Dart'</tspan>],</text>
+    <text class="code" x="42" y="116">state: <tspan class="st">'Cubit / BLoC'</tspan>,</text>
+    <text class="code" x="42" y="142">based: <tspan class="st">'Egypt'</tspan>,</text>
+    <text class="code" x="42" y="168">openTo: <tspan class="st">'great teams'</tspan>,</text>
+    <text class="code" x="22" y="192">);<tspan class="caret" fill="#54C5F8">▍</tspan></text>
+  </g></g>
+</svg>
